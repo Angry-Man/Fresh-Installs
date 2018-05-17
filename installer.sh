@@ -19,6 +19,8 @@ libnotify \
 stow \
 vim \
 nano \
+terminus-font \
+base-devel \
 `#pywal and depends` \
 pywal \
 ImageMagick \
@@ -80,6 +82,7 @@ chmod +x ~/sys-comps/dunst/dunstset.sh
 cd ~/sys-comps/2bwm
 sudo make && sudo make install
 
+rm -r ~/2bwm
 #Use stow to symlink all dotfiles
 
 cd ~/dotfiles
