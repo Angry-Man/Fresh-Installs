@@ -46,13 +46,13 @@ sudo xbps-install -Suv -y
 #git downloads
 
 cd ~
-git clone https://www.github.com/venam/2bwm
+git clone https://www.github.com/venam/2bwm.git
 cd ~
-git clone https://www.github.com/Angry-Man/dotfiles
+git clone --recursive-submodules https://www.github.com/Angry-Man/dotfiles.git
 cd ~
-git clone https://www.github.com/Angry-Man/scripts
+git clone https://www.github.com/Angry-Man/scripts.git
 cd ~
-git clone https://www.github.com/Angry-Man/sys-comps
+git clone https://www.github.com/Angry-Man/sys-comps.git
 cd ~
 
 #Consolidating updated 2bwm with my config and edit for username in config.h
