@@ -3,10 +3,8 @@
 #Script meant to automate the install of a usable 2bwm system for Void Linux from base install.
 sudo xbps-install -Suv -y
 
-sudo xbps-install -S \
-#
+sudo xbps-install -y -S \
 #List of packages
-#
 xorg \
 rxvt-unicode \
 dmenu \
@@ -19,11 +17,10 @@ xclip \
 dunst \
 libnotify \
 stow \
-#
 #pywal and depends
 pywal \
 ImageMagick \
-#
+# 
 youtube-dl \
 mpv \
 compton \
@@ -32,14 +29,11 @@ alsa-tools \
 alsa-utils \
 lemonbar \
 ranger \
-#
 #xcb 2bwm depends
 libxcb-devel \
 xcb-util-keysyms-devel \
 xcb-util-wm-devel \
 xcb-util-xrm-devel \
-#
--y
 
 #Another update for good measure
 
