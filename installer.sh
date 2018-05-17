@@ -43,10 +43,6 @@ xcb-util-xrm-devel \
 
 sudo xbps-install -Suv -y
 
-#changing shell
-
-chsh -s /bin/zsh
-
 #git downloads
 
 cd ~
@@ -87,6 +83,13 @@ cd ~/sys-comps/2bwm
 sudo make && sudo make install
 
 sudo rm -r ~/2bwm
+
+#add oh-my-zsh and change shell
+cd ~
+git clone https://github.com/robbyrussell/oh-my-zsh.git ~/dotfiles/zsh/.oh-my-zsh
+
+chsh -s /bin/zsh
+
 #Use stow to symlink all dotfiles
 
 cd ~/dotfiles
@@ -97,10 +100,7 @@ stow Xres
 stow neofetch
 stow wal
 
-#Edit .zshrc for user
 cd ~
-vim .zshrc
-
 #Run themer
 ${HOME}/scripts/theming/theme_changer
 
