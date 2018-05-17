@@ -97,6 +97,10 @@ stow Xres
 stow neofetch
 stow wal
 
+#Edit .zshrc for user
+cd ~
+vim .zshrc
+
 #Run themer
 ${HOME}/scripts/theming/theme_changer
 
