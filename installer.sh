@@ -63,7 +63,7 @@ cd ~
 
 cp ~/sys-comps/2bwm/config.h ~/2bwm/config.h
 
-mv ~/2bwm ~/sys-comps
+sudo mv -f ~/2bwm ~/sys-comps
 
 #Making git files excecutables
 
@@ -96,6 +96,9 @@ stow zsh
 stow Xres
 stow neofetch
 stow wal
+
+#Run themer
+${HOME}/scripts/theming/theme_changer
 
 #Another update for good measure
 
