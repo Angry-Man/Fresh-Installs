@@ -48,7 +48,7 @@ sudo xbps-install -Suv -y
 cd ~
 git clone https://www.github.com/venam/2bwm.git
 cd ~
-git clone --recursive-submodules https://www.github.com/Angry-Man/dotfiles.git
+git clone --recurse-submodules https://www.github.com/Angry-Man/dotfiles.git
 cd ~
 git clone https://www.github.com/Angry-Man/scripts.git
 cd ~
