@@ -4,7 +4,7 @@
 sudo xbps-install -Suv -y
 
 sudo xbps-install -y -S \
-#List of packages
+`#List of packages` \
 xorg \
 rxvt-unicode \
 dmenu \
@@ -17,10 +17,10 @@ xclip \
 dunst \
 libnotify \
 stow \
-#pywal and depends
+`#pywal and depends` \
 pywal \
 ImageMagick \
-# 
+`#` \
 youtube-dl \
 mpv \
 compton \
@@ -29,7 +29,7 @@ alsa-tools \
 alsa-utils \
 lemonbar \
 ranger \
-#xcb 2bwm depends
+`#xcb 2bwm depends` \
 libxcb-devel \
 xcb-util-keysyms-devel \
 xcb-util-wm-devel \
