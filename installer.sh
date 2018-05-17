@@ -43,6 +43,10 @@ xcb-util-xrm-devel \
 
 sudo xbps-install -Suv -y
 
+#changing shell
+
+chsh -s /bin/zsh
+
 #git downloads
 
 cd ~
@@ -57,9 +61,9 @@ cd ~
 
 #Consolidating updated 2bwm with my config
 
-cp ~/dotfiles/2bwm/config.h ~/sys-comps/2bwm/config.h
+cp ~/sys-comps/2bwm/config.h ~/2bwm/config.h
 
-mv ~/dotfiles/2bwm ~/sys-comps
+mv ~/2bwm ~/sys-comps
 
 #Making git files excecutables
 
@@ -82,7 +86,7 @@ chmod +x ~/sys-comps/dunst/dunstset.sh
 cd ~/sys-comps/2bwm
 sudo make && sudo make install
 
-rm -r ~/2bwm
+sudo rm -r ~/2bwm
 #Use stow to symlink all dotfiles
 
 cd ~/dotfiles
@@ -97,6 +101,6 @@ stow wal
 
 sudo xbps-install -Suv -y
 
-echo "Done ...maybe. Remeber the platform you are on, fonts, and theming if necessary."
+echo "Done ...maybe. Remeber the platform you are on, log out and in for shell, fonts, and theming if necessary."
 
 #END
