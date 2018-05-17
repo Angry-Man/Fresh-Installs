@@ -17,6 +17,7 @@ zsh \
 xtools \
 xclip \
 dunst \
+libnotify \
 
 #pywal and depends
 pywal \
@@ -35,7 +36,7 @@ ranger \
 libxcb-devel \
 xcb-util-keysyms-devel \
 xcb-util-wm-devel \
-xcb-util-xrm-devel \
+xcb-util-xrm-devel 
 
 #Another update for good measure
 
@@ -94,6 +95,6 @@ stow wal
 
 sudo xbps-install -Suv -y
 
-echo "Done ...maybe."
+echo "Done ...maybe. Remeber the platform you are on, fonts, and theming if necessary."
 
 #END
