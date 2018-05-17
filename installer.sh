@@ -3,7 +3,7 @@
 #Script meant to automate the install of a usable 2bwm system for Void Linux from base install.
 sudo xbps-install -Suv -y
 
-sudo xbps-install -S -y \
+sudo xbps-install -S \
 #
 #List of packages
 #
@@ -37,7 +37,9 @@ ranger \
 libxcb-devel \
 xcb-util-keysyms-devel \
 xcb-util-wm-devel \
-xcb-util-xrm-devel 
+xcb-util-xrm-devel \
+#
+-y
 
 #Another update for good measure
 
