@@ -17,6 +17,8 @@ xclip \
 dunst \
 libnotify \
 stow \
+vim \
+nano \
 `#pywal and depends` \
 pywal \
 ImageMagick \
@@ -69,9 +71,9 @@ chmod +x ~/scripts/theming/wpset
 chmod +x ~/sys-comps/bar/bar1.sh
 chmod +x ~/sys-comps/bar/barmaster.sh
 
-chmod +x ~/sys-comps/dmenu.sh
+chmod +x ~/sys-comps/dmenu/dmenu.sh
 
-chmod +x ~/sys-comps/dunshset.sh
+chmod +x ~/sys-comps/dunst/dunstset.sh
 
 #Compiling and installing 2bwm
 
