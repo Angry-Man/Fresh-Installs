@@ -55,11 +55,16 @@ cd ~
 git clone https://www.github.com/Angry-Man/sys-comps
 cd ~
 
-#Consolidating updated 2bwm with my config
+#Consolidating updated 2bwm with my config and edit for username in config.h
 
 cp ~/sys-comps/2bwm/config.h ~/2bwm/config.h
 
 sudo mv -f ~/2bwm ~/sys-comps
+
+echo "Change username for dmenu script."
+wait 5
+
+vim ~/sys-comps/2bwm/config.h
 
 #Making git files excecutables
 
@@ -84,10 +89,7 @@ sudo make && sudo make install
 
 sudo rm -r ~/2bwm
 
-#add oh-my-zsh and change shell
-cd ~
-git clone https://github.com/robbyrussell/oh-my-zsh.git ~/dotfiles/zsh/.oh-my-zsh
-
+#change shell to zsh
 chsh -s /bin/zsh
 
 #Use stow to symlink all dotfiles
@@ -107,6 +109,12 @@ ${HOME}/scripts/theming/theme_changer
 #Another update for good measure
 
 sudo xbps-install -Suv -y
+
+#Cleaning up
+
+sudo rm -r ~/Fresh-Installs
+
+clear
 
 echo "Done ...maybe. Remeber the platform you are on, log out and in for shell, fonts, and theming if necessary."
 
