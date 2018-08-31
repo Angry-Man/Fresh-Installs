@@ -30,6 +30,7 @@ alsa-utils \
 lemonbar \
 ranger \
 neovim \
+neofetch \
 `#xcb 2bwm depends` \
 libxcb1-dev \
 libxcb-keysyms1-dev \
@@ -70,7 +71,7 @@ cp ~/sys-comps/2bwm/config.h ~/2bwm/config.h
 sudo mv -f ~/2bwm ~/sys-comps
 
 echo "Change username for dmenu script."
-wait 5
+wait 500
 
 vim ~/sys-comps/2bwm/config.h
 
@@ -125,7 +126,7 @@ sudo rm -r ~/Fresh-Installs
 clear
 
 echo "Done ...maybe. Remeber the platform you are on, rebooting now for fresh start."
-wait 5
+wait 500
 
 sudo systemctl reboot
 
