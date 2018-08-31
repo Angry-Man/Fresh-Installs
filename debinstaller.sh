@@ -24,11 +24,12 @@ pyton3-pip \
 youtube-dl \
 mpv \
 compton \
-firefox \
+firefox-esr\
 alsa-tools \
 alsa-utils \
 lemonbar \
 ranger \
+neovim \
 `#xcb 2bwm depends` \
 libxcb1-dev \
 libxcb-keysyms1-dev \
