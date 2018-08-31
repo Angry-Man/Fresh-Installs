@@ -20,11 +20,11 @@ vim \
 nano \
 xfonts-terminus \
 python3 \
-pyton3-pip \
+python3-pip \
 youtube-dl \
 mpv \
 compton \
-firefox-esr\
+firefox-esr \
 alsa-tools \
 alsa-utils \
 lemonbar \
