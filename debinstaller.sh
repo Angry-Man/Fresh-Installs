@@ -50,9 +50,7 @@ sudo apt update && sudo apt upgrade -y
 
 pip3 install pywal
 
-#add oh-my-zsh and change shell
-cd ~
-git clone https://github.com/robbyrussell/oh-my-zsh.git ~/dotfiles/zsh/.oh-my-zsh
+#My Repositories
 
 cd ~
 git clone https://www.github.com/venam/2bwm.git
