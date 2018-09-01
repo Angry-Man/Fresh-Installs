@@ -69,7 +69,7 @@ cp ~/sys-comps/2bwm/config.h ~/2bwm/config.h
 sudo mv -f ~/2bwm ~/sys-comps
 
 echo "Change username for dmenu script."
-wait 500
+sleep 5
 
 vim ~/sys-comps/2bwm/config.h
 
@@ -124,8 +124,8 @@ sudo rm -r ~/Fresh-Installs
 clear
 
 echo "Done ...maybe. Remeber the platform you are on, rebooting now for fresh start."
-wait 500
+sleep 5
 
-sudo systemctl reboot
+#sudo systemctl reboot
 
 #END
