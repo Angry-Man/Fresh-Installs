@@ -48,7 +48,7 @@ sudo apt update && sudo apt upgrade -y
 
 #pip download for pywal
 
-pip3 install pywal
+sudo pip3 install pywal
 
 #My Repositories
 
@@ -94,8 +94,6 @@ chmod +x ~/sys-comps/dunst/dunstset.sh
 
 cd ~/sys-comps/2bwm
 sudo make && sudo make install
-
-sudo rm -r ~/2bwm
 
 #change shell to zsh
 chsh -s /bin/zsh
