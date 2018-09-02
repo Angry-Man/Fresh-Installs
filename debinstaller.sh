@@ -39,6 +39,7 @@ libxcb-icccm4-dev \
 libxcb-ewmh-dev \
 libxcb-xrm-dev \
 imagemagick \
+psmisc \
 
 #Another update for good measure
 
@@ -122,9 +123,9 @@ sudo rm -r ~/Fresh-Installs
 
 #clear
 
-echo "Done ...maybe. Remeber the platform you are on, rebooting now for fresh start."
+echo "Done ...maybe. Remeber the platform you are on, rebooting now for fresh start. If on a virtual machine, will need to install guest additions manually."
 sleep 5
 
-#sudo systemctl reboot
+sudo systemctl reboot
 
 #END
