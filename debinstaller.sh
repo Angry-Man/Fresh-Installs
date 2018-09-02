@@ -66,7 +66,8 @@ cd ~
 
 cp ~/sys-comps/2bwm/config.h ~/2bwm/config.h
 
-sudo mv -f ~/2bwm ~/sys-comps
+sudo cp -r ~/2bwm ~/sys-comps
+sudo rm -rf ~/2bwm
 
 echo "Change username for dmenu script."
 sleep 5
@@ -121,7 +122,7 @@ sudo apt update && sudo apt upgrade -y
 
 sudo rm -r ~/Fresh-Installs
 
-clear
+#clear
 
 echo "Done ...maybe. Remeber the platform you are on, rebooting now for fresh start."
 sleep 5
