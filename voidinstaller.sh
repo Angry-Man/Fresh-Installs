@@ -116,7 +116,7 @@ sudo ./xbps-src binary-bootstrap
 #get templates and install any
 cd ~
 git clone https://www.github.com/Angry-Man/templates
-cp ~/templates/* ~/void-packages/srcpkgs/
+cp -r ~/templates/* ~/void-packages/srcpkgs/
 
 cd ~/void-packages
 sudo ./xbps-src pkg creep2-font
