@@ -38,6 +38,7 @@ libxcb-devel \
 xcb-util-keysyms-devel \
 xcb-util-wm-devel \
 xcb-util-xrm-devel \
+neovim \
 
 #Another update for good measure
 
@@ -101,7 +102,7 @@ stow zsh
 stow Xres
 stow neofetch
 stow wal
-stow config
+stow neovim
 
 cd ~
 #Run themer
