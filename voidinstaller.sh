@@ -55,6 +55,9 @@ git clone https://www.github.com/Angry-Man/scripts.git
 cd ~
 git clone https://www.github.com/Angry-Man/sys-comps.git
 cd ~
+curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+~
 
 #Consolidating updated 2bwm with my config and edit for username in config.h
 
