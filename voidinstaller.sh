@@ -101,6 +101,7 @@ stow zsh
 stow Xres
 stow neofetch
 stow wal
+stow config
 
 cd ~
 #Run themer
@@ -111,7 +112,7 @@ cd ~
 
 git clone https://github.com/void-linux/void-packages.git
 cd ~/void-packages
-sudo ./xbps-src binary-bootstrap
+./xbps-src binary-bootstrap
 
 #get templates and install any
 cd ~
@@ -119,7 +120,7 @@ git clone https://www.github.com/Angry-Man/templates
 cp -r ~/templates/* ~/void-packages/srcpkgs/
 
 cd ~/void-packages
-sudo ./xbps-src pkg creep2-font
+./xbps-src pkg creep2-font
 sudo xbps-install --repository=hostdir/binpkgs creep2-font
 
 #Another update for good measure
